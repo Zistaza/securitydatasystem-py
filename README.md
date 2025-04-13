@@ -18,30 +18,3 @@ User authentication with a login system.
 
 Protection against multiple failed login attempts with lockout duration.
 
-Setup:
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/Zistaza/securitydatasystem-py.git
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Streamlit app:
-
-bash
-Copy
-Edit
-streamlit run securedataencrpt.py
-Usage:
-Register a new user: Enter a username and password.
-
-Login: After successful registration, log in using the credentials.
-
-Store Data: Enter your data, encrypt it, and save it securely.
-
-Retrieve Data: Paste encrypted data and provide the correct passkey to decrypt
