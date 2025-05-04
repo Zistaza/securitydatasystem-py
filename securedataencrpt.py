@@ -117,7 +117,7 @@ elif choice == "Login":
                     st.error(" Too many failed attempts!🔴 Entry Attempts Locked for 60 seconds!")
                     st.stop()
 
-# section of store data
+# section for store data
 elif choice == "Store Data":
     if not st.session_state.authenticated_user:
         st.warning(" Please Login First!!🔏")
